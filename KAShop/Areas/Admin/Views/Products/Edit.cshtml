@@ -1,0 +1,59 @@
+﻿@model Product
+@section title {
+product
+}
+@section all {
+Edit
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <form action="/admin/products/edit" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="Id" value="@Model.Id" />
+        <div class="form-group">
+            <label for="exampleInputEmail1">Name</label>
+            <input name="Name" value="@Model.Name" type="text" class="form-control" placeholder="Enter Name" fdprocessedid="zqqf6e">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Discription</label>
+            <textarea name="Discription" class="form-control" fdprocessedid="zqqf6e">@Model.Discription</textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Price</label>
+            <input name="Price" value="@Model.Price" type="number" class="form-control" placeholder="Enter Price" fdprocessedid="zqqf6e">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">quantity</label>
+            <input name="quantity" value="@Model.quantity" type="number" class="form-control" placeholder="Enter quantity" fdprocessedid="zqqf6e">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Image</label>
+            <img src="/Image/@Model.Image" width="200px"/>
+            <input name="Image" type="file" class="form-control"  fdprocessedid="zqqf6e">
+        </div>
+
+        <div class="form-group  ">
+
+            <label for="exampleInputEmail1">Category</label>
+            <select class="form-control" name="CategoryId">
+                @foreach (var item in ViewBag.Categories)
+                {
+                    if(item.Id == Model.CategoryId)
+                    {
+                        <option value="@item.Id" selected>@item.Name</option>
+                    }
+                    else
+                    {
+                        <option value="@item.Id">@item.Name</option>
+                    }
+                }
+            </select>
+        </div>
+
+        <button type="submit" class="btn  btn-primary" fdprocessedid="zl6l2q">Edit</button>
+        </form>
+    </body>
+    </html>

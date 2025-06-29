@@ -1,0 +1,23 @@
+﻿@model Category
+@section title {
+    Categories
+}
+@section all {
+    create
+}
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+    <form action="/admin/categories/create" method="post">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Name</label>
+            <input type="text" class="form-control" name="Name" id="exampleInputEmail1" placeholder="Enter Name" fdprocessedid="bbnqug">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary" fdprocessedid="42nbfi">Create</button>
+    </form>
+    </body>
+    </html>

@@ -1,0 +1,29 @@
+﻿@model List<Category>
+@section title {
+Categories
+}
+@section all {
+Show
+}
+
+<div class="card-body">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th style="width: 10px">#</th>
+                <th>Title</th>
+                <th>Aaction</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td> <a  class="btn  btn-outline-danger" fdprocessedid="owvco8" href="/Admin/categories/dellete/@item.Id">Dellete</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
