@@ -13,6 +13,8 @@
 	<link href="/admin/css/overlayscrollbars.min.css" rel="stylesheet" />
 	<!-- Theme style -->
 	<link href="/admin/css/adminlte.min.css" rel="stylesheet" />
+    @RenderSection("css", false)
+
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
     <!-- Site wrapper -->
@@ -355,5 +357,7 @@
 	<script src="/admin/js/adminlte.min.js"></script>
 	<!-- AdminLTE for demo purposes -->
 	<script src="/admin/js/demo.js"></script>
+
+    @RenderSection("script",false)
 </body>
 </html>

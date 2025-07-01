@@ -38,6 +38,8 @@ namespace KAShop.Areas.Admin.Controllers
                 var check = context.Categories.FirstOrDefault(c=>c.Name==category.Name);
                 if (check is null)
                 {
+                    TempData["succsses"] = "oparetion completed sucssefulle";
+                    Response.Cookies.Append("succsses", "oparetion completed sucssefulle");
                     context.Categories.Add(category);
                     context.SaveChanges();
                     return RedirectToAction("Index");
