@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\Documents\\asp11\\mvc\\Projects\\KAShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CDE39E85-CB4D-453F-A01E-14A94E805359}|KAShop\\KAShop.csproj|c:\\users\\hp\\documents\\asp11\\mvc\\projects\\kashop\\kashop\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE39E85-CB4D-453F-A01E-14A94E805359}|KAShop\\KAShop.csproj|solutionrelative:kashop\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CDE39E85-CB4D-453F-A01E-14A94E805359}|KAShop\\KAShop.csproj|c:\\users\\hp\\documents\\asp11\\mvc\\projects\\kashop\\kashop\\areas\\admin\\views\\companies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE39E85-CB4D-453F-A01E-14A94E805359}|KAShop\\KAShop.csproj|solutionrelative:kashop\\areas\\admin\\views\\companies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE39E85-CB4D-453F-A01E-14A94E805359}|KAShop\\KAShop.csproj|c:\\users\\hp\\documents\\asp11\\mvc\\projects\\kashop\\kashop\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CDE39E85-CB4D-453F-A01E-14A94E805359}|KAShop\\KAShop.csproj|solutionrelative:kashop\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CDE39E85-CB4D-453F-A01E-14A94E805359}|KAShop\\KAShop.csproj|c:\\users\\hp\\documents\\asp11\\mvc\\projects\\kashop\\kashop\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE39E85-CB4D-453F-A01E-14A94E805359}|KAShop\\KAShop.csproj|solutionrelative:kashop\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE39E85-CB4D-453F-A01E-14A94E805359}|KAShop\\KAShop.csproj|c:\\users\\hp\\documents\\asp11\\mvc\\projects\\kashop\\kashop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE39E85-CB4D-453F-A01E-14A94E805359}|KAShop\\KAShop.csproj|solutionrelative:kashop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CDE39E85-CB4D-453F-A01E-14A94E805359}|KAShop\\KAShop.csproj|c:\\users\\hp\\documents\\asp11\\mvc\\projects\\kashop\\kashop\\areas\\admin\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE39E85-CB4D-453F-A01E-14A94E805359}|KAShop\\KAShop.csproj|solutionrelative:kashop\\areas\\admin\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE39E85-CB4D-453F-A01E-14A94E805359}|KAShop\\KAShop.csproj|c:\\users\\hp\\documents\\asp11\\mvc\\projects\\kashop\\kashop\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE39E85-CB4D-453F-A01E-14A94E805359}|KAShop\\KAShop.csproj|solutionrelative:kashop\\areas\\admin\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE39E85-CB4D-453F-A01E-14A94E805359}|KAShop\\KAShop.csproj|c:\\users\\hp\\documents\\asp11\\mvc\\projects\\kashop\\kashop\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE39E85-CB4D-453F-A01E-14A94E805359}|KAShop\\KAShop.csproj|solutionrelative:kashop\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "create.cshtml",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\mvc\\Projects\\KAShop\\KAShop\\Areas\\Admin\\Views\\Products\\create.cshtml",
-              "RelativeDocumentMoniker": "KAShop\\Areas\\Admin\\Views\\Products\\create.cshtml",
-              "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\mvc\\Projects\\KAShop\\KAShop\\Areas\\Admin\\Views\\Products\\create.cshtml",
-              "RelativeToolTip": "KAShop\\Areas\\Admin\\Views\\Products\\create.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\mvc\\Projects\\KAShop\\KAShop\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "KAShop\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\mvc\\Projects\\KAShop\\KAShop\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "KAShop\\Areas\\Admin\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-29T16:54:59.687Z",
+              "WhenOpened": "2025-07-01T14:56:02.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\mvc\\Projects\\KAShop\\KAShop\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "KAShop\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\mvc\\Projects\\KAShop\\KAShop\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "KAShop\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T14:55:14.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\mvc\\Projects\\KAShop\\KAShop\\Areas\\Admin\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "KAShop\\Areas\\Admin\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\mvc\\Projects\\KAShop\\KAShop\\Areas\\Admin\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "KAShop\\Areas\\Admin\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T07:41:22.83Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\mvc\\Projects\\KAShop\\KAShop\\Areas\\Admin\\Views\\Companies\\Create.cshtml",
+              "RelativeDocumentMoniker": "KAShop\\Areas\\Admin\\Views\\Companies\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\mvc\\Projects\\KAShop\\KAShop\\Areas\\Admin\\Views\\Companies\\Create.cshtml",
+              "RelativeToolTip": "KAShop\\Areas\\Admin\\Views\\Companies\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T14:30:35.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\mvc\\Projects\\KAShop\\KAShop\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "KAShop\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\mvc\\Projects\\KAShop\\KAShop\\Models\\Product.cs",
-              "RelativeToolTip": "KAShop\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\mvc\\Projects\\KAShop\\KAShop\\Areas\\Admin\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "KAShop\\Areas\\Admin\\Controllers\\CompaniesController.cs",
+              "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\mvc\\Projects\\KAShop\\KAShop\\Areas\\Admin\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "KAShop\\Areas\\Admin\\Controllers\\CompaniesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T07:45:58.449Z",
+              "WhenOpened": "2025-07-01T14:30:25.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\Documents\\asp11\\mvc\\Projects\\KAShop\\KAShop\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KAShop\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hp\\Documents\\asp11\\mvc\\Projects\\KAShop\\KAShop\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "KAShop\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAAAAEBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T14:29:51.776Z",
               "EditorCaption": ""
             }
           ]

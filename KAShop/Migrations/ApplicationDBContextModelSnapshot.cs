@@ -65,6 +65,27 @@ namespace KAShop.Migrations
                         });
                 });
 
+            modelBuilder.Entity("KAShop.Models.Company", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Discription")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("companies");
+                });
+
             modelBuilder.Entity("KAShop.Models.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -76,6 +97,9 @@ namespace KAShop.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
+                    b.Property<int>("CompanyId")
+                        .HasColumnType("int");
+
                     b.Property<double>("Discount")
                         .HasColumnType("float");
 
@@ -84,12 +108,12 @@ namespace KAShop.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.Property<double>("Price")
                         .HasColumnType("float");
@@ -104,6 +128,8 @@ namespace KAShop.Migrations
 
                     b.HasIndex("CategoryId");
 
+                    b.HasIndex("CompanyId");
+
                     b.ToTable("Products");
                 });
 
@@ -115,10 +141,23 @@ namespace KAShop.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("KAShop.Models.Company", "company")
+                        .WithMany("products")
+                        .HasForeignKey("CompanyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("category");
+
+                    b.Navigation("company");
                 });
 
             modelBuilder.Entity("KAShop.Models.Category", b =>
+                {
+                    b.Navigation("products");
+                });
+
+            modelBuilder.Entity("KAShop.Models.Company", b =>
                 {
                     b.Navigation("products");
                 });

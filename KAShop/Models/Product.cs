@@ -16,12 +16,15 @@ namespace KAShop.Models
         public double Discount { get; set; }
         [Range(0,5)]
         public double Rate { get; set; }
-        public string Image { get; set; }
+        public string? Image { get; set; }
         [Range(0, 300)]
         public int quantity { get; set; }
         public int CategoryId { get; set; }
         [ValidateNever]
         public Category category { get; set; }
-
+        public int CompanyId { get; set; }
+        [ValidateNever]
+        public Company company { get; set; }
+     
     }
 }
